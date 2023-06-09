@@ -1,0 +1,20 @@
+{
+  "name": "event-default",
+  "version": "1.0.0",
+  "description": "Event Planner",
+  "main": "Dish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackhouse8/Event-Default.git"
+  },
+  "author": "Mason Bauer, Michael Escribano, Mitchell Stackhouse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackhouse8/Event-Default/issues"
+  },
+  "homepage": "https://github.com/stackhouse8/Event-Default#readme"
+}
