@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/stackhouse8/Event-Default#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.3.5",
+    "sequelize": "^6.32.0"
   }
 }
