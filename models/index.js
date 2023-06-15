@@ -6,7 +6,7 @@ User.hasMany(Event, {
 });
 
 Event.belongsTo(User, {
-    foreignKey: 'User-id'
+    foreignKey: 'User_id'
 })
 
 

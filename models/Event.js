@@ -11,11 +11,7 @@ Event.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    Name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    Host: {
+    event_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -23,11 +19,11 @@ Event.init(
       type: DataTypes.DATE,
       allowNull: false,
     },
-    filename: {
+    event_location: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    event_description: {
       type: DataTypes.STRING,
       allowNull: false,
     },
