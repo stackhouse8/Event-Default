@@ -4,4 +4,4 @@ const dishRoutes = require('./dish-routes.js');
 
 router.use('/', dishRoutes);
 
-module.export = router;
+module.exports = router;
