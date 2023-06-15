@@ -1,4 +1,6 @@
-[
+const { Event } = require('../models');
+
+const eventdata = [
     {
         "event_name": "Adele concert",
         "event_date": "07/14/23",
@@ -33,5 +35,8 @@
         "event_location": "La Crosse, Wisconsin",
        "event_description": "Going to a family reunion on the 27th."
 
-    }
-]
+    },
+];
+
+const seedEvents = () => Event.bulkCreate(eventdata);
+module.exports = seedEvents;
