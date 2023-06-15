@@ -19,16 +19,12 @@
   "homepage": "https://github.com/stackhouse8/Event-Default#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
-<<<<<<< HEAD
-    "express": "^4.18.2",
-    "express-handlebars": "^7.0.7",
-    "express-session": "^1.17.3",
-=======
+    "connect-session-sequelize": "^7.1.7",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.7",
+    "express-session": "^1.17.3",
     "mysql2": "^3.3.5",
->>>>>>> 7303011d168cf4645be23456fd2a43b8f1ebefd2
     "sequelize": "^6.32.0"
   }
 }
