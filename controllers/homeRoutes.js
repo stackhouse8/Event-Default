@@ -23,23 +23,25 @@ router.get("/", async (req, res) => {
 router.get("/events", async (req, res) => {
   try {
     const eventData = await Event.findAll({
-      include: [
-        {
-          model: Event,
-          attributes: [
-            "event_name",
-            "event_date",
-            "event_location",
-            "event_description",
-          ],
-        },
-      ],
+      // include: [
+      //   {
+      //     model: Event,
+      //     attributes: [
+      //       "event_name",
+      //       "event_date",
+      //       "event_location",
+      //       "event_description",
+      //     ],
+        // },
+      // ],
     });
+    console.log(req.session);
 
     const events = eventData.map((event) => event.get({ plain: true }));
 
-    res.render("homepage", {
+    res.render("events", {
       events,
+      loggedIn: req.session.logged_in
     });
   } catch (err) {
     console.log(err);
@@ -55,6 +57,12 @@ router.get("/login", async (req, res)=> {
 
   res.render('login');
 });
+
+router.get("/signup", async (req, res) => {
+  res.render("signup");
+});
+
+// render the create event form
 
 
 module.exports = router;
