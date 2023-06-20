@@ -1,0 +1,40 @@
+.root{
+    
+}
+
+.events {
+    display: flex;
+    padding: 5px;
+    font-size: 12px;
+    
+}
+
+#eventName {
+   color: white;
+   background-color: black;
+}
+
+#eventDate {
+    color: white;
+    background-color: black;
+ }
+
+ #eventLoco {
+    color: white;
+    background-color: black;
+ }
+
+#eventDesc {
+    color: white;
+    background-color: black;
+ }
+
+ .inputs{
+    display: flex;
+    padding: 5px;
+ }
+
+ .login {
+    display: flex;
+    padding: 5px;
+ }
