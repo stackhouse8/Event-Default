@@ -13,6 +13,7 @@
     <h1>
      User Registry
     </h1>
+    <button id="logoutbtn"></button>
   </header>
   <main class="container container-fluid mt-5">
     {{{ body }}}
@@ -20,6 +21,23 @@
   <footer>
       
   </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function()
+    {
+      $('#logoutbtn').on('click',function()
+      {
+        $.post('/logout',function(response){
+          
+        if(response.success) {
+          window.location.href='/login';
+        } else {
+          console.log('Logout failed.');
+        }
+      });
+    });
+  });
+  </script>
 </body>
 
 </html>
