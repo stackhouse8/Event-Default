@@ -1,40 +1,50 @@
-.root{
-    
+footer  {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
 }
 
-.events {
-    display: flex;
-    padding: 5px;
-    font-size: 12px;
-    
+/*global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
 }
 
-#eventName {
-   color: white;
-   background-color: black;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-color: #333;
+    color: #fff;
 }
 
-#eventDate {
-    color: white;
-    background-color: black;
- }
+#logoutbtn{
+    background-color: #ff5959;
+    color:#fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+#logoutbtn:hover{
+    background-color: #f33333;
+}
 
- #eventLoco {
-    color: white;
-    background-color: black;
- }
+/* Main content styles */
 
-#eventDesc {
-    color: white;
-    background-color: black;
- }
+main { background-color: #fff;
+padding: 20px;
 
- .inputs{
-    display: flex;
-    padding: 5px;
- }
+}
 
- .login {
-    display: flex;
-    padding: 5px;
- }
+/*footer styles */
+footer { background-color: #333;
+color:#fff;
+padding: 10px;
+text-align: center;
+}
