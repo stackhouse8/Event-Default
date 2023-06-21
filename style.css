@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+footer  {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+>>>>>>> bf87362a32f05ba66f9deaa13808f065828ade40
 /*global styles */
 body {
     font-family: Arial, sans-serif;
